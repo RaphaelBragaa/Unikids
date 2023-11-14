@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Mooli&display=swap');
+
+.align-x-y{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container{
+    width:100%;
+    height:5rem;
+    display:flex;
+    align-items:center;
+    z-index:1;
+    position: absolute;
+    background-color: #faa937;
+    justify-content:space-around;
+    font-family: 'Playpen Sans', cursive;
+    box-shadow: 0px 4px 9px -3px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 0px 4px 9px -3px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px 4px 9px -3px rgba(0,0,0,0.58);
+}
+
+.logo{
+    width: 15%;
+    height: 3.5rem;
+    object-fit:contain;
+    margin-left: 3.5rem;
+}
+
+.options-container{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    font-weight: 600;
+    color:#0060D4;
+}
+
+.option:hover{
+    color: aqua;
+    cursor:pointer;
+}
+
+.enrollment{
+    width: 7%;
+    height: 3rem;
+    background-color: #0060D4;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 10rem;
+    font-weight: 600;
+}
+
+.enrollment:hover{
+    background-color: #FFFFFF;
+    color: #0060D4;
+    cursor:pointer;
+}
+
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/background.svg");
+    width: 80%;
+    height: 60rem;
+    margin:auto;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* box-shadow: inset 0 0 20px rgba(0,0,0,1); */
+}
+.swiper {
+    width: 35%;
+    height: 45%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+.home-photos, .home-texts{
+    height: 40rem;
+    width: 50%;
+}
+
+.photo{
+    width: 25%;
+    height: 55%;
+    position: absolute;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 7px 19px -3px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 7px 19px -3px rgba(0,0,0,0.55);
+    box-shadow: 0px 7px 19px -3px rgba(0,0,0,0.55);
+}
+
+.front{
+     transform: translate(-61px, -27px);
+     z-index: 1;
+     object-fit:cover;
+}
+
+.back{
+    transform: translate(200px, 100px); 
+    object-fit:cover;
+}
+
+
+.title-t1, .title-t2{
+    color: #5ccfde;
+    font-weight: 700;
+    text-shadow: 1px -1px 12px #5DD7E7;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.size-title{
+    font-size: 80px;
+}
+
+.size-subtitle{
+    font-size: 35px;
+}
+
+.size-desc{
+    font-size: 1.5em;
+}
+
+.size-button{
+    font-size: 0.7em;
+}
+
+.button-b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 50%;
+    height: 3rem;
+    background-color:#49ff18;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 0px 8px 28px -2px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 0px 8px 28px -2px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 8px 28px -2px rgba(0,0,0,0.66);
+    cursor: pointer;
+}
+
+.button-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60rem;
+    
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.about-box{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 30rem;
+    border: 1px solid #FFFFFF;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-about{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.image-build{
+    height:25rem;
+    width: 45%;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+.treatment-container{
+    background-image: url("../images/fundo-do-padrao-geometrico_1319-214.png");
+    width: 100%;
+    height: 30rem;
+    margin-top: 10px;
+    padding-top: 50px;
+    box-shadow: inset 0 0 20px rgba(0,0,0,1);
+}
+
+.title-t3{
+    color: #38be13;
+    text-align: center;
+}
+
+.day-button{
+    position: relative;
+    width: 12%;
+    height: 6rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+    
+    align-items: center; 
+    border: 3px solid #38be13;
+}
+
+.day{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    position: absolute;
+    width: 60%;
+    height: 2rem;
+    border-radius: 8px;
+    background-color: #38be13;
+    transform: translate(3%, -140%); 
+   
+}
+
+.treatment-days{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20rem;
+}
+
+.time{
+   font-weight: 700;
+   font-size: large;
+}
+
+.service-container{
+    height: 20rem;
+}
