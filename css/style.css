@@ -230,3 +230,32 @@
     color: #FFFFFF;
     font-weight: 700;
 }
+
+.calendar-container{
+    background-image: url("../images/background/copia-espaco-menino-bonitinho-com-livro.jpg");
+    width: 80%;
+    height: 50rem;
+    margin:auto;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.contact-container{
+   display: flex; 
+   margin: auto;
+   width: 80%;
+   height: 40rem;
+   padding-right: 2.5rem;
+   box-sizing: border-box;
+}
+
+.dress-box{
+    width: 45%;
+    height: 100%;
+}
+
+.form-box{
+    width: 52.78%;
+    height: 100%;
+}
