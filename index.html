@@ -6,141 +6,166 @@
     <title>FisioNassau</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
-    <div class="header-container">
-           <img src="./images/UniKids02.png" alt="logo" class="logo">
-           <div class="options-container">
-                <h1 class="option">HOME</h1>
-                <h1 class="option">SOBRE</h1>
-                <h1 class="option">ATENDIMENTOS</h1>
-                <h1 class="option">SERVIÇOS</h1>
-                <h1 class="option">LOCALIZAÇÃO</h1>
-                <h1 class="option">CONTATO</h1>
-           </div>
-           <div class="enrollment align-x-y">Matrícula</div>
+    <div class="header-main align-y">
+        <div class="header-top align-x-y">
+            <div class="social-container">
+                <h1>SIGA</h1>
+                <ion-icon color="white" size="small" name="logo-facebook"></ion-icon>
+                <ion-icon color="white" size="small" name="logo-youtube"></ion-icon>
+                <ion-icon color="white" size="small" name="logo-instagram"></ion-icon>
+                <ion-icon color="white" size="small" name="logo-linkedin"></ion-icon>
+                <h1>(79) 9998-7766</h1>
+            </div>
+            <div class="social-container">
+                <h1>PARCEIROS</h1>
+                <img src="./images/logo/unesco.png" class="logo-min">
+                <img src="./images/logo/google.jpg" class="logo-min contain">
+            </div>
+        </div>
+        <div class="header-container">
+           <img src="./images/logo/UniKids02.png" alt="logo" class="logo">
+           <div class="option-main">
+                <div class="options-container">
+                    <h1 class="option">HOME</h1>
+                    <h1 class="option">NOTÍCIAS</h1>
+                    <h1 class="option">CALENDÁRIO</h1>
+                    <h1 class="option">LOCALIZAÇÃO</h1>
+                    <h1 class="option">CONTATO</h1>
+                </div>
+                <div class="enrollment align-x-y">MATRÍCULA</div>
+            </div>
+ 
+        </div> 
     </div>
-    <div class="home-container">
+    <div class="home-container align-x-y">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 4</div>
-              <div class="swiper-slide">Slide 5</div>
-              <div class="swiper-slide">Slide 6</div>
-              <div class="swiper-slide">Slide 7</div>
-              <div class="swiper-slide">Slide 8</div>
-              <div class="swiper-slide">Slide 9</div>
+              <div class="swiper-slide">
+                <img class="contain" src="./images/others/retrato-de-menino-de-tiro-medio-com-fundo-de-formatura.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img class="contain" src="./images/others/colegas-de-escola-abracados.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img class="contain" src="./images/others/feche-as-criancas-se-divertindo-com-confetes.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img class="contain" src="./images/others/2021-10-11-11-08-49-ensino-creche.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img class="contain" src="./images/others/colegas-de-escola-abracados.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img class="contain" src="./images/others/feche-as-criancas-se-divertindo-com-confetes.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img class="contain" src="./images/others/retrato-de-menino-de-tiro-medio-com-fundo-de-formatura.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img class="contain" src="./images/others/colegas-de-escola-abracados.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img class="contain" src="./images/others/2021-10-11-11-08-49-ensino-creche.jpg">
+              </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
           </div>
-       <!--  <div class="home-photos align-x-y">
-            <img src="./images/h1.jpg" class="photo back" style="z-index: 1; margin-left: 30px;">
-            <img src="./images/f1.jpg" class="photo front">
-        </div>
-        <div class="home-texts align-x-y">
-            <div class="title-container">
-                <h1 class="title-t1 size-title">Fisioterapia</h1>
-                <h1 class="title-t2 size-subtitle">e a percepção corporal</h1>
-                <h2 class="desc-t1 size-desc">
-                    A observação dos seus gestos pode fazer você
-                    eliminar “vícios" corporais, que já entraram no piloto
-                    automático, e assim, ganhar mais energia e saúde.
-                </h2>
-                <div class="button-container">
-                    <div class="button-b1 size-button">
-                        AGENDE O SEU ATENDIMENTO
-                    </div>
-                </div>
-            </div>
-
-        </div> -->
     </div>
-    <div class="about-container">
-        <div class="about-box">
-           <div class="about-text">
-                <h1 class="title-about size-subtitle">Nossa Missão</h1>
-                <h2 class="desc-t1">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </h2>
-            </div>
-            <img src="./images/mission.png">
-        </div>
-        <div class="about-box">
-            <img src="./images/build.png" class="image-build">
-            <div class="about-text">
-                 <h1 class="title-about size-subtitle">Nossa História</h1>
+    <div class="journal-container">
+        <div class="journal-box">
+                <h1 class="title-journal">
+                    SAJU/SE É O MAIS NOVO PARCEIRO DA UNIKIDS
+                </h1>
+                <h1 class="data-journal">
+                    6 de Novembro
+                </h1>
+                 <img class="img-journal align-y contain" src="./images/others/red.jpg"> 
                  <h2 class="desc-t1">
-                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                     unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                 </h2>
-             </div>
-             
-         </div> 
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an tree...
+                </h2>
+                <div class="button-journal align-x-y">
+                    VER MAIS...
+                </div>
+        </div>
+        <div class="journal-box">
+            <h1 class="title-journal">
+                SAJU/SE É O MAIS NOVO PARCEIRO DA UNIKIDS
+            </h1>
+            <h1 class="data-journal">
+                6 de Novembro
+            </h1>
+             <img class="img-journal align-y contain" src="./images/others/red.jpg"> 
+             <h2 class="desc-t1">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an tree...
+            </h2>
+            <div class="button-journal align-x-y">
+                VER MAIS...
+            </div>
+        </div> 
+        <div class="journal-box">
+            <h1 class="title-journal">
+                SAJU/SE É O MAIS NOVO PARCEIRO DA UNIKIDS
+            </h1>
+            <h1 class="data-journal">
+                6 de Novembro
+            </h1>
+             <img class="img-journal align-y contain" src="./images/others/red.jpg"> 
+             <h2 class="desc-t1">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an tree...
+            </h2>
+            <div class="button-journal align-x-y">
+                VER MAIS...
+            </div>
+        </div> 
+        <div class="journal-box">
+            <h1 class="title-journal">
+                SAJU/SE É O MAIS NOVO PARCEIRO DA UNIKIDS
+            </h1>
+            <h1 class="data-journal">
+                6 de Novembro
+            </h1>
+             <img class="img-journal align-y contain" src="./images/others/red.jpg"> 
+             <h2 class="desc-t1">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an tree...
+            </h2> 
+            <div class="button-journal align-x-y">
+                VER MAIS...      
+            </div>   
+        </div>        
+        <div class="button-box align-x-y">
+            <div class="button-journal-all align-x-y"> Veja todas as notícias</div>
+        </div>
     </div>
-    <div class="treatment-container">
-        <h1 class="title-t3 size-title">Atendimentos</h1>
-        <div class="treatment-days">
-            <div class="day-button">
-                <h1 class="day align-x-y">Segunda-feira</h1>
-                <h2 class="time">08:00 as 17:00</h2>
-            </div>
-            <div class="day-button">
-                <h1 class="day align-x-y">Terça-feira</h1>
-                <h2 class="time">08:00 as 17:00</h2>
-            </div>
-            <div class="day-button">
-                <h1 class="day align-x-y">Quarta-feira</h1>
-                <h2 class="time">08:00 as 17:00</h2>
-            </div>
-            <div class="day-button">
-                <h1 class="day align-x-y">Quinta-feira</h1>
-                <h2 class="time">08:00 as 17:00</h2>
-            </div>
-            <div class="day-button">
-                <h1 class="day align-x-y">Sexta-feira</h1>
-                <h2 class="time">08:00 as 17:00</h2>
-            </div>
-            <div class="day-button">
-                <h1 class="day align-x-y">Sábado</h1>
-                <h2 class="time">08:00 as 12:00</h2>
-            </div>
-            <div class="day-button">
-                <h1 class="day align-x-y">Domingo</h1>
-                <h2 class="time">Fechado</h2>
-            </div>
-            </div>
-    </div>
-    <div class="service-container">
-    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-      const swiper = new Swiper(".mySwiper", {
-        pagination: {
-          el: ".swiper-pagination",
-          type: "fraction",
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
     </script>
 </body>
 </html>
